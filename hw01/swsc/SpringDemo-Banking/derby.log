@@ -1,0 +1,14 @@
+----------------------------------------------------------------
+Tue Oct 22 16:27:52 CEST 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077): instance a816c00e-0141-e090-8f8a-000005688488 
+on database directory memory:/home/honza/src/college/pa165/homework01/swsc/SpringDemo-Banking/dataSource  with class loader sun.misc.Launcher$AppClassLoader@72c21d01 
+Loaded from file:/home/honza/.m2/repository/org/apache/derby/derby/10.8.1.2/derby-10.8.1.2.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_40-b60
+user.dir=/home/honza/src/college/pa165/homework01/swsc/SpringDemo-Banking
+derby.system.home=null
+derby.stream.error.method=org.springframework.jdbc.datasource.embedded.OutputStreamFactory.getNoopOutputStream
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Oct 22 16:27:53 CEST 2013:
+Shutting down instance a816c00e-0141-e090-8f8a-000005688488 on database directory memory:/home/honza/src/college/pa165/homework01/swsc/SpringDemo-Banking/dataSource with class loader sun.misc.Launcher$AppClassLoader@72c21d01 

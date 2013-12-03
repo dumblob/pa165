@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cz.muni.fi.pa165</groupId>
+    <artifactId>pa165-books</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+    <name>Books aggregator module</name>
+
+    <modules>
+        <module>books-api</module>
+        <module>books-mem-impl</module>
+        <module>books-web-stripes</module>
+    </modules>
+
+    <developers>
+        <developer>
+            <name>Martin Kuba</name>
+            <email>makub@ics.muni.cz</email>
+            <url>http://www.muni.cz/people/3988</url>
+            <organization>ÚVT MU</organization>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <build>
+        <plugins>
+            <!-- Java language version -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>7</source>
+                    <target>7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
